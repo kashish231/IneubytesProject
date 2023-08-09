@@ -1,0 +1,192 @@
+body{
+    background-color: gray;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color:black;
+   
+    
+    color: white;
+   
+    
+}
+nav ul li{
+    text-align: center;
+    padding: 0 15px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: palevioletred;
+}
+
+.brand img{
+    width:60px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.container{
+    min-height: 52vh;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 9px;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 35px;
+    background-image: url(wallpaper.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.songitemcontainer{
+    margin-top: 40px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgb(43, 43, 41);
+   
+   
+   
+
+
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 400px;
+    color:black;
+     margin: 12px 0;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 14px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border: 0 solid black;
+     border-radius: 10px; 
+       
+     
+   
+}
+.songItem:hover{
+    color: palevioletred;
+}
+.songItem img{
+    width: 40px;
+    margin: 15px 25px;
+    margin-left: 3px;
+    padding-left: 2px;
+    border-radius: 50px;
+}
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+   
+   left:10vw;
+    top: 20px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.songlist h1{
+    margin: 1px;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+    padding-top: 15px;
+    
+    width: 45px;
+}
+@media only screen and (max-width : 800px){
+body{
+    background-color: red;
+
+}
+.songItem{
+    height: 36px;
+    display: flex;
+    background-color: white; 
+    color:white;
+     margin: 11px 0;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border: 0 solid black;
+     border-radius: 34px; 
+       background-image: url(happy.jpg);
+    
+}
+.songinfo{
+    position: absolute;
+   color:white ;
+    top: 36px;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  padding-left: 0;
+    font-size: 12px;
+}
+.icons i{
+    padding: 0 8px;
+    font-size: 20px;
+}
+#gif{
+ display: none;
+}
+
+
+
+}
